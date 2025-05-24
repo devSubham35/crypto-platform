@@ -3,7 +3,7 @@ import HeroHeader from '@/components/common/HeroHeader'
 import CustomButton from '@/components/common/CustomButton'
 import CustomInputField from '@/components/common/CustomInputField'
 
-const AboutUsReachOut = () => {
+const ContactUsReachOut = () => {
 
     const [loading, setLoading] = useState(false);
 
@@ -43,4 +43,4 @@ const AboutUsReachOut = () => {
     )
 }
 
-export default AboutUsReachOut
+export default ContactUsReachOut

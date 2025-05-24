@@ -1,15 +1,15 @@
+import { BiSupport } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";
 import { BiSolidPhoneCall } from "react-icons/bi";
-import CustomButton from "@/components/common/CustomButton"
 import HeroHeader from "@/components/common/HeroHeader"
-import { BiSupport } from "react-icons/bi";
+import CustomButton from "@/components/common/CustomButton"
 
 
 const CardHeading = "font-secondary text-[1.2rem] md:text-[1.2rem] font-semibold"
 const CardDescription = "font-secondary text-[0.8rem] lg:text-[0.9rem] xl:max-w-[80%] 2xl:max-w-[70%] text-white/60"
 const CardContainer = "w-full h-full p-[1.5rem] text-white space-y-[0.9rem] flex flex-col justify-center rounded-3xl"
 
-const AboutUsBody = () => {
+const ContactUsBody = () => {
   return (
     <div className="container w-full py-10">
       <HeroHeader title='GET IN TOUCH' heading='Get In Touch With Us' />
@@ -51,4 +51,4 @@ const AboutUsBody = () => {
   )
 }
 
-export default AboutUsBody
+export default ContactUsBody
