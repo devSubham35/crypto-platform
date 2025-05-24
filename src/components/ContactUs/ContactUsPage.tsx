@@ -6,7 +6,7 @@ import LayoutWrapper from "../Wrapper/LayoutWrapper";
 
 const ContactUsPage = () => {
   return (
-    <div className="z-20 relative w-full h-full overflow-hidden">
+    <div className="z-20 relative w-full h-full">
       <LayoutWrapper>
         <ContactUsHero />
         <ContactUsBody />

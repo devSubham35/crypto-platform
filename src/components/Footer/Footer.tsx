@@ -1,9 +1,9 @@
-import CustomButton from "@/components/common/CustomButton";
-import CustomInputField from "@/components/common/CustomInputField";
 import Image from "next/image";
-import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { LiaLinkedin } from "react-icons/lia";
+import { BsInstagram, BsTwitter } from "react-icons/bs";
+import CustomButton from "@/components/common/CustomButton";
+import CustomInputField from "@/components/common/CustomInputField";
 
 const SocialLinkData = [
   { icon: <BsTwitter />, link: "#" },
@@ -44,7 +44,7 @@ const FooterData = [
 
 const Footer = () => {
   return (
-    <footer className="z-10 relative w-full text-white mb-16 md:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <footer className="z-10 relative w-full text-white md:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-10 mb-8">
           <div className="md:col-span-5 flex flex-col gap-6">
