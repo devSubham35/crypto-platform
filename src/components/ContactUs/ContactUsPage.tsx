@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContactUsBody from "./ContactUsBody";
-import ContactUsHero from "./ContactUsBody";
+import ContactUsHero from "./ContactUsHero";
 import ContactUsReachOut from "./ContactUsReachOut";
 import LayoutWrapper from "../Wrapper/LayoutWrapper";
 
