@@ -6,7 +6,7 @@ import LayoutWrapper from "../Wrapper/LayoutWrapper";
 
 const ContactUsPage = () => {
   return (
-    <div className="z-20 relative w-full h-full">
+    <div className="z-20 relative w-full min-h-screen">
       <LayoutWrapper>
         <ContactUsHero />
         <ContactUsBody />
@@ -17,7 +17,7 @@ const ContactUsPage = () => {
           width={1000}
           height={1000}
           alt="header-logo"
-          src="/assets/aboutUsBg.png"
+          src="/assets/ContactUs/ContactUsBg.png"
           className="object-cover w-full h-full"
         />
       </div>

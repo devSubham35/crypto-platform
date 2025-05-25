@@ -1,9 +1,11 @@
-import ContactUsPage from "@/components/ContactUs/ContactUsPage"
+import AboutUsPage from "@/components/AboutUs/AboutUsPage"
+// import ContactUsPage from "@/components/ContactUs/ContactUsPage"
 
 const Home = () => {
   return (
     <>
-      <ContactUsPage />
+      {/* <ContactUsPage /> */}
+      <AboutUsPage />
     </>
   )
 }

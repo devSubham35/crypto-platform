@@ -34,7 +34,7 @@ const CustomInputField: React.FC<CustomInputFieldProps> = ({
   return (
     <div className="w-full">
       {label && (
-        <h1 className="font-secondary text-white font-semibold ml-2 mb-2">
+        <h1 className="font-secondary text-white font-semibold ml-2 mb-2 text-xs md:text-base">
           {label}
         </h1>
       )}

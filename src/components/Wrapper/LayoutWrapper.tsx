@@ -7,7 +7,7 @@ interface LayoutWrapperprops {
 
 const LayoutWrapper = ({ children }: LayoutWrapperprops) => {
     return (
-        <div className='w-full relative'>
+        <div className='w-full'>
             <Header />
             {children}
             <Footer />

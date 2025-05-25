@@ -8,8 +8,8 @@ const navData = [
   { title: "HOME", link: "" },
   { title: "TRADE", link: "" },
   { title: "SERVICES", link: "" },
-  { title: "ABOUT", link: "" },
-  { title: "CONTACT", link: "" },
+  { title: "ABOUT", link: "/about-us" },
+  { title: "CONTACT", link: "/contact-us" },
 ];
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <nav className="w-full sticky top-0 text-white z-50">
       <div className="backdrop-blur-lg transition-all duration-300">
-        <div className="container w-full py-6 px-4 flex justify-between items-center mx-auto relative">
+        <div className="container w-full py-3 md:py-6 px-4 flex justify-between items-center mx-auto relative">
           {/* Logo */}
           <div className="flex items-center">
             <Image
