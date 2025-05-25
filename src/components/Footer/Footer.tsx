@@ -80,7 +80,7 @@ const Footer = () => {
             <div className="my-4 mb-10 flex flex-col md:flex-row items-center gap-4">
               <CustomInputField placeholder='Enter your email...' />
               <div className="w-full md:w-fit">
-                <CustomButton variant="filled" className="w-full flex flex-nowrap px-[40px] h-[60px]">SUBCRIBE</CustomButton>
+                <CustomButton variant="filled" className="w-full flex flex-nowrap px-[40px] md:h-[60px]">SUBCRIBE</CustomButton>
               </div>
             </div>
             <div className="w-full grid grid-cols-3">
