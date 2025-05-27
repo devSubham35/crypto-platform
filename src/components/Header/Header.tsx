@@ -5,9 +5,9 @@ import { CgClose } from 'react-icons/cg';
 import CustomButton from '@/components/common/CustomButton';
 
 const navData = [
-  { title: "HOME", link: "" },
+  { title: "HOME", link: "/" },
   { title: "TRADE", link: "" },
-  { title: "SERVICES", link: "" },
+  { title: "SERVICES", link: "/service" },
   { title: "ABOUT", link: "/about-us" },
   { title: "CONTACT", link: "/contact-us" },
 ];
