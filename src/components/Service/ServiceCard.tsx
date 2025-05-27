@@ -17,7 +17,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   reverse = false,
 }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
       {/* Image Section */}
       <div className={`w-full h-full flex justify-center items-center ${reverse ? 'md:order-2' : 'md:order-1'}`}>
         <Image
@@ -36,7 +36,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           width={500}
           height={500}
           alt={`${title}-counter`}
-          className="w-fit object-contain"
+          className="w-[50px] md:w-fit object-contain"
           src={counterImage}
         />
         <h1 className="text-xl md:text-3xl lg:text-4xl font-bold">{title}</h1>
