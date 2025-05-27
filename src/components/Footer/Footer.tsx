@@ -84,7 +84,7 @@ const Footer = () => {
               <div className="w-full md:w-fit">
                 <CustomButton
                   variant="filled"
-                  className="w-full flex flex-nowrap px-[40px] h-[40px] md:h-[60px]"
+                  className="w-full flex flex-nowrap px-[40px] h-[50px] md:h-[60px]"
                 >
                   SUBCRIBE
                 </CustomButton>
