@@ -24,6 +24,7 @@ const ServicePage = () => {
                     src="/assets/Service/Service_bg.png"
                     className="object-cover w-full h-full"
                 />
+                 
             </div>
         </div>
     )
